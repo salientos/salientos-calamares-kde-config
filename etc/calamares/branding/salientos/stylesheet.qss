@@ -1,0 +1,85 @@
+/*
+
+A branding component can ship a stylesheet (like this one)
+which is applied to parts of the Calamares user-interface.
+In principle, all parts can be styled through CSS.
+Missing parts should be filed as issues.
+
+The IDs are based on the object names in the C++ code.
+
+Documentation for styling Qt Widgets through a stylesheet
+can be found at
+    https://doc.qt.io/qt-5/stylesheet-examples.html
+In Calamares, styling widget classes is supported (e.g.
+using `QComboBox` as a selector). You can also use specific
+object names (ids), which you can find through debugging tools.
+
+*/
+
+/* Main application window. */
+
+#mainApp {
+}
+
+#sidebarApp {
+	background-color: #111c21;
+}
+
+#logoApp {
+	background-color: #111c21;
+}
+
+#sidebarMenuApp {
+	background-color: #111c21;
+	font: 20px;
+	padding-top: 20px;
+}
+
+#sidebarTextHighlight {
+	background: #222d32;
+	border-right: 2px solid #111c21;
+	color: #ffffff;
+}
+
+QWidget {
+	background-color: #222d32;
+	font: 14px;
+	color: #ffffff;
+}
+
+QDialogButtonBox { 
+	dialogbuttonbox-buttons-have-icons: 0;
+}
+
+/* ########## PROGRESS BAR ########## */
+
+QProgressBar {
+	background-color: #111c21;
+	color: #ffffff;
+    border: 1px solid #222d32;
+   	border-radius: 5px;
+	text-align: center;
+	height: 25px;
+}
+
+QProgressBar::chunk {
+    background-color: #3281f8;
+    border: 1px solid #111c21;
+   	border-radius: 5px;
+}
+
+/* Partitioning module.
+
+#bootInfoIcon { }
+#bootInfoLable { }
+#deviceInfoIcon { }
+#defineInfoLabel { }
+#scrollAreaWidgetContents { }
+#partitionBarView { }
+*/
+
+/* Licensing module.
+
+#licenseItem {  }
+#licenseItemFullText {  }
+*/
