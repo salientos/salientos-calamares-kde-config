@@ -42,9 +42,26 @@ object names (ids), which you can find through debugging tools.
 }
 
 QWidget {
+	color: #ffffff;
 	background-color: #222d32;
 	font: 14px;
-	color: #ffffff;
+    background-clip: border;
+    border-image: none;
+    outline: 0;
+}
+
+QWidget:item:hover
+{
+    background-color: #111c21;
+    color: #ffffff;
+}
+
+QWidget:item:selected
+{
+    background-color: #0d1112;
+    color: #ffffff;
+    padding: 0px;
+    margin: 0px;
 }
 
 QDialogButtonBox { 
@@ -54,18 +71,21 @@ QDialogButtonBox {
 /* ########## PROGRESS BAR ########## */
 
 QProgressBar {
-	background-color: #111c21;
+	background: qlineargradient(spread:reflect, x1:1, y1:0.5, x2:1, y2:0, stop:0 rgba(17, 28, 33, 0.7), stop:1 rgba(13, 17, 18, 0.8));
+	/*background: #111c21;*/
 	color: #ffffff;
     border: 1px solid #222d32;
-   	border-radius: 5px;
+   	border-radius: 4px;
 	text-align: center;
-	height: 25px;
+	height: 23px;
 }
 
-QProgressBar::chunk {
-    background-color: #3281f8;
-    border: 1px solid #111c21;
-   	border-radius: 5px;
+QProgressBar::chunk:horizontal {
+	/*background: qlineargradient(spread:reflect, x1:1, y1:0.5, x2:1, y2:0, stop:0 rgba(50, 129, 214, 0.4), stop:1 rgba(17, 28, 33, 0.7));*/
+    background: rgba(50, 129, 214, 0.9);
+    border: 1px solid rgba(50, 129, 214, 0.6);
+   	border-radius: 4px;
+   	margin: 1px;
 }
 
 /* Partitioning module.
