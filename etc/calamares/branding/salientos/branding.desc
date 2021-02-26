@@ -28,7 +28,7 @@ style:
    sidebarBackground:    "transparent"
    sidebarText:          "#EFEFEF"
    sidebarTextSelect:    "#EFEFEF"
-   sidebarTextHighlight: "#222d32"
+   sidebarTextHighlight: "#202a2f"
 
 slideshow:               "show.qml"
 slideshowAPI: 2
