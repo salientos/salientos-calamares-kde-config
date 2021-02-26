@@ -95,7 +95,7 @@ QProgressBar {
 }
 
 QProgressBar::chunk:horizontal {	
-    background: #0d1112;
+    background: #d0571a;
     border: 1px solid #111c21;
    	border-radius: 4px;
    	margin: 0px;
