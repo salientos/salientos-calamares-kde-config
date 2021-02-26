@@ -3,7 +3,7 @@
 pkgname=salientos-calamares-kde-config
 _destname1="/etc"
 pkgver=3.2.37
-pkgrel=1
+pkgrel=2
 pkgdesc="Salient OS KDE - Calamares Config"
 arch=('any')
 url="https://github.com/salientos"
