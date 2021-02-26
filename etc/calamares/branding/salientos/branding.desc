@@ -21,14 +21,14 @@ strings:
 images:
     productLogo:         "logo.png"
     productIcon:         "logo.png"
-    productWallpaper:    "wallpaper.png"
+    productWallpaper:    ""
     productWelcome:      "languages.png"
 
 style:
-   sidebarBackground:    "#111c21"
+   sidebarBackground:    "transparent"
    sidebarText:          "#EFEFEF"
    sidebarTextSelect:    "#EFEFEF"
-   sidebarTextHighlight: "#222D32"
+   sidebarTextHighlight: "#222d32"
 
 slideshow:               "show.qml"
 slideshowAPI: 2

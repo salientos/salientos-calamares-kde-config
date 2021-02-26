@@ -45,7 +45,7 @@ Presentation
             id: background1
             source: "slide.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
+            horizontalAlignment: Image.AlignLeft
     		verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
@@ -74,7 +74,7 @@ Presentation
             id: background2
             source: "slide2.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
+            horizontalAlignment: Image.AlignLeft
     		verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
@@ -101,7 +101,7 @@ Presentation
             id: background3
             source: "slide3.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
+            horizontalAlignment: Image.AlignLeft
     		verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
@@ -130,7 +130,7 @@ Presentation
             id: background4
             source: "slide4.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
+            horizontalAlignment: Image.AlignLeft
     		verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
