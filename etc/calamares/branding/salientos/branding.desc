@@ -21,7 +21,7 @@ strings:
 images:
     productLogo:         "logo.png"
     productIcon:         "logo.png"
-    productWallpaper:    ""
+    productWallpaper:    "wallpaper.png"
     productWelcome:      "languages.png"
 
 style:

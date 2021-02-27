@@ -52,8 +52,8 @@ Presentation
         }
         Text {
             anchors.centerIn: parent
-            anchors.verticalCenterOffset: 165
-            anchors.horizontalCenterOffset: 0
+            anchors.verticalCenterOffset: 160
+            anchors.horizontalCenterOffset: 18
             font.pixelSize: parent.width *.016
             color: 'white'
             text: qsTr("<b>Welcome to Salient OS, an arch-based rolling distribution designed for "+
@@ -81,8 +81,8 @@ Presentation
         }
         Text {
             anchors.centerIn: parent
-            anchors.verticalCenterOffset: 165
-            anchors.horizontalCenterOffset: 0
+            anchors.verticalCenterOffset: 160
+            anchors.horizontalCenterOffset: 18
             font.pixelSize: parent.width *.016
             color: 'white'
             text: qsTr("<b>Salient OS is a beautiful and easy to use Arch Linux Distribution! ")
@@ -108,8 +108,8 @@ Presentation
         }
         Text {
             anchors.centerIn: parent
-            anchors.verticalCenterOffset: 163
-            anchors.horizontalCenterOffset: 0
+            anchors.verticalCenterOffset: 160
+            anchors.horizontalCenterOffset: 18
             font.pixelSize: parent.width *.016
             color: 'white'
             text: qsTr("<b>Salient OS is 100% compatible with Arch Linux with additional<br/> AUR Helpers "+
@@ -137,8 +137,8 @@ Presentation
         }
         Text {
             anchors.centerIn: parent
-            anchors.verticalCenterOffset: 165
-            anchors.horizontalCenterOffset: 0
+            anchors.verticalCenterOffset: 160
+            anchors.horizontalCenterOffset: 18
             font.pixelSize: parent.width *.016
             color: 'white'
             text: qsTr("<b>Thank you for choosing Salient OS<br/> "+
