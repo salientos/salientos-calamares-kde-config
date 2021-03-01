@@ -43,6 +43,8 @@ object names (ids), which you can find through debugging tools.
 	color: #ffffff;
 }
 
+/* ########## QWIDGET COLOUR ########## */
+
 QWidget {
 	color: #ffffff;
 	background-color: #202a2f;
@@ -130,6 +132,65 @@ QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
 }
 QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
      background: none;
+}
+
+/* ########## QLIST VIEW ########## */
+
+QListView {
+	font: 14px;
+}
+
+QListView::item:alternate {
+	background: #182023;
+	color: #ffffff;
+}
+
+QListView::item:!alternate:selected:active {
+	background: #182023;
+	color: #ffffff;
+}
+
+QListView::item:selected:active {
+	background: #182023;
+	color: #ffffff;
+}
+
+QListView::item:selected:!active {
+	background: #182023;
+	color: #ffffff;
+}
+
+QListView::item:hover {
+	background: #182023;
+	color: #ffffff;
+}
+
+QListView#listLayout::item:!alternate:selected:active {
+	background: #182023;
+	color: #ffffff;
+}
+
+QListView#listVariant::item:!alternate:selected:active {
+	background: #182023;
+	color: #ffffff;
+}
+
+/* ########## TREE VIEW ########## */
+
+QTreeView {
+	font: 15px;
+	show-decoration-selected: 0;
+	margin: 2px;
+	padding: 2px;
+}
+
+QTreeView::item {
+	margin: 0px;
+}
+
+QTreeView::item:selected {
+	background: #182023;
+	font: bold;
 }
 
 /* Partitioning module.
