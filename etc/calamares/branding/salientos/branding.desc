@@ -20,7 +20,7 @@ strings:
 
 images:
     productLogo:         "logo.png"
-    productIcon:         "logo.png"
+    productIcon:         "squid.png"
     productWallpaper:    "wallpaper.png"
     productWelcome:      "languages.png"
 
