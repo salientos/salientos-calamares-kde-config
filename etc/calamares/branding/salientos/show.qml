@@ -85,7 +85,7 @@ Presentation
             anchors.horizontalCenterOffset: 18
             font.pixelSize: parent.width *.016
             color: 'white'
-            text: qsTr("<b>Salient OS is a beautiful and easy to use Arch Linux Distribution! ")
+            text: qsTr("<b>Salient OS is an easy to use Arch Linux Distribution, configured to be useful, out of the box!")
             wrapMode: Text.WordWrap
             width: parent.width / 1.4
             horizontalAlignment: Text.AlignHCenter
