@@ -19,15 +19,16 @@ _msg() {
 }
 
 _msg "Checking for newer files online."
-
 git pull
+
 _msg "Backing up everything in project folder."
-git add --all .
-_msg "Enter your commit message (optional)"
-read input
-# Committing to the repository with commit comment if given
+git add --all . | tee -a README.md
+
+read -p "Enter your commit message (optional): " input
+
 _msg "Committing to the repository."
 git commit -m "$input"
+
 _msg "Pushing local files to Github."
 git push -u origin master
 
