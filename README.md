@@ -7,5 +7,3 @@
 </p>
 
 Salient OS Calamares KDE Config
-
-Slideshow images by <a href="https://www.pling.com/u/antechdesigns/"/>Antechdesigns</a>
