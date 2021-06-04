@@ -1,3 +1,4 @@
+ 
 /*
 
 A branding component can ship a stylesheet (like this one)
@@ -92,7 +93,7 @@ QProgressBar {
 }
 
 QProgressBar::chunk:horizontal {    
-    background: #2385b4;
+    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #1D77C5, stop:1 #2385b4);
     border: 1px solid #111c21;
     border-radius: 4px;
     margin: 0px;
@@ -141,44 +142,44 @@ QListView {
 }
 
 QListView::item:alternate {
-    background: #182023;
+    background: #1D77C5;
     color: #ffffff;
 }
 
 QListView::item:!alternate:selected:active {
-    background: #182023;
+    background: #1D77C5;
     color: #ffffff;
 }
 
 QListView::item:selected:active {
-    background: #182023;
+    background: #1D77C5;
     color: #ffffff;
 }
 
 QListView::item:selected:!active {
-    background: #182023;
+    background: #1D77C5;
     color: #ffffff;
 }
 
 QListView::item:hover {
-    background: #182023;
+    background: #1D77C5;
     color: #ffffff;
 }
 
 QListView#listLayout::item:!alternate:selected:active {
-    background: #182023;
+    background: #1D77C5;
     color: #ffffff;
 }
 
 QListView#listVariant::item:!alternate:selected:active {
-    background: #182023;
+    background: #1D77C5;
     color: #ffffff;
 }
 
 /* ########## TREE VIEW ########## */
 
 QTreeView {
-    font: 15px;
+    font: 14px;
     show-decoration-selected: 0;
     margin: 2px;
     padding: 2px;
@@ -189,7 +190,7 @@ QTreeView::item {
 }
 
 QTreeView::item:selected {
-    background: #182023;
+    background: #1D77C5;
     font: bold;
 }
 
@@ -202,36 +203,21 @@ QToolButton {
     margin-left: 1px;
 }
 
-QToolButton:hover {
-    background-color: rgba(70,162,218,50%);
-    border: 1px solid #46a2da;
-    color: #000;
-}
-
-QToolButton:pressed {
-    background-color: #727272;
-    border: 1px solid #46a2da;
-}
-
-QToolButton:checked {
-    background-color: #727272;
-    border: 1px solid #222;
-}
-
 /*-----QPushButton-----*/
 
 QPushButton {
-    background-color: #46a2da;
+    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #1D77C5, stop:1 #2385b4);
     color: #fff;
     min-width: 80px;
     border-radius: 4px;
     padding: 5px;
+    pointer: pointing_hand;
 }
 
 QPushButton::flat {
     background-color: transparent;
     border: none;
-    color: #000;
+    color: #fff;
 }
 
 QPushButton::disabled {
@@ -241,8 +227,9 @@ QPushButton::disabled {
 }
 
 QPushButton::hover {
-    background-color: #54aad3;
+    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #2385b4, stop:1 #1D77C5);
     border: 1px solid #46a2da;
+    color: #000;
 }
 
 QPushButton::pressed {
