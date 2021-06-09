@@ -10,4 +10,4 @@ if [[ -d "/run/archiso/copytoram" ]]; then
 fi
 
 ## Launch calamare installer accordingly
-pkexec calamares
+kdesu calamares
