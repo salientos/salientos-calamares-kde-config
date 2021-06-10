@@ -211,7 +211,6 @@ QPushButton {
     min-width: 80px;
     border-radius: 4px;
     padding: 5px;
-    pointer: pointing_hand;
 }
 
 QPushButton::flat {
