@@ -1,0 +1,266 @@
+- name: "Audio Applications"
+  description: "Installs Audio Applications"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - a2jmidid
+    - ardour
+    - audacious
+    - audacity
+    - cadence
+    - calf
+    - eq10q
+    - harvid
+    - helm
+    - jack2
+    - lmms
+    - lollypop
+    - lsp-plugins
+    - patchmatrix
+    - pulseaudio-jack
+    - pulsemixer
+    - pulseeffects
+    - qjackctl
+    - quodlibet
+    - rhythmbox
+    - xjadeo
+  subgroups:
+   - name: pipewire
+     description: Pipewire Audio Support Files
+     subgroups:
+      - name: pipewire-hidden
+        description: pipewire-hidden
+        hidden: true
+        selected: true
+        packages:
+         - pipewire
+         - pipewire-alsa
+         - pipewire-jack
+         - pipewire-media-session
+         - pipewire-pulse
+         - pipewire-zeroconf
+         - libpipewire02
+         - gst-plugin-pipewire
+         - wireplumber
+- name: "Development Applications"
+  description: "Installs Development Applications"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - atom
+    - ccache
+    - code
+    - geany
+    - meld
+    - notepadqq
+    - sublime-text-4
+- name: "Device Support Applications"
+  description: "Installs Device Applications"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - solaar
+    - xboxdrv
+- name: "Extra TTF Fonts"
+  description: "Installs Additional Fonts"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - ttf-anonymous-pro
+    - ttf-caladea
+    - ttf-carlito
+    - ttf-cascadia-code
+    - ttf-cormorant
+    - ttf-croscore
+    - ttf-droid
+    - ttf-eurof
+    - ttf-fantasque-sans-mono
+    - ttf-font-awesome
+    - ttf-inconsolata
+    - ttf-joypixels
+    - ttf-ionicons
+    - ttf-liberation
+    - ttf-monofur
+    - ttf-nerd-fonts-symbols
+    - ttf-nerd-fonts-symbols-mono
+    - ttf-proggy-clean
+    - ttf-roboto
+    - ttf-roboto-mono
+    - ttf-ubuntu-font-family
+- name: "Gaming Applications"
+  description: "Installs Gaming Applications"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - geforcenow-electron
+    - lutris
+    - steam
+    - steam-native-runtime
+  subgroups:
+   - name: gamemode
+     description: Gamemode and support files
+     subgroups:
+      - name: gamemode-hidden
+        description: gamemode-hidden
+        hidden: true
+        selected: true
+        packages:
+         - gamemode-git
+         - lib32-gamemode
+- name: "Graphics Applications"
+  description: "Installs Graphics Applications"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - blender
+    - darktable
+    - digikam
+    - flameshot
+    - gcolor3
+    - gpick
+    - imagemagick
+    - inkscape
+    - ksnip
+    - nomacs
+    - pick-colour-picker
+    - rawtherapee
+  subgroups:
+   - name: gimp
+     description: GIMP + Plugins (GMIC)
+     subgroups:
+      - name: gimp-hidden
+        description: gimp-hidden
+        hidden: true
+        selected: true
+        packages:
+         - gimp
+         - gimp-plugin-gmic
+   - name: krita
+     description: Krita + Plugins (GMIC)
+     subgroups:
+      - name: krita-hidden
+        description: krita-hidden
+        hidden: true
+        selected: true
+        packages:
+         - krita
+         - krita-plugin-gmic
+         - libheif
+         - kimageformats
+- name: "Internet Applications"
+  description: "Installs Internet Applications"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - chromium
+    - discord
+    - filezilla
+    - hexchat
+    - telegram-desktop
+    - thunderbird
+    - transmission-gtk
+    - vivaldi
+    - vivaldi-ffmpeg-codecs
+- name: "Office Applications"
+  description: "Installs Office Applications"
+  hidden: false
+  selected: false
+  expanded: false
+  critical: false
+  subgroups:
+    - name: "Libre Office Fresh"
+      description: "libreoffice-fresh packages"
+      hidden: false
+      selected: false
+      critical: false
+      packages:
+        - libreoffice-fresh
+        - hunspell
+    - name: "Libre Office Still"
+      description: "libreoffice-still packages"
+      hidden: false
+      selected: false
+      critical: false
+      packages:
+        - libreoffice-still
+        - hunspell
+    - name: "Office Support Applications"
+      description: "Install Support Applications"
+      hidden: false
+      selected: false
+      critical: false
+      packages:
+        - evince
+        - mpdf
+        - simple-scan
+- name: "System Applications"
+  description: "Install System Applications"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - bleachbit
+    - cpupower
+    - dconf-editor
+    - downgrade
+    - grub-customizer
+    - gufw
+    - isoimagewriter
+    - seahorse
+    - stacer
+    - ventoy-bin
+- name: "Terminal Applications"
+  description: "Install Terminal Applications"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - alacritty
+    - guake
+    - kitty
+    - sakura
+    - terminator
+    - tilix
+- name: "Video Applications"
+  description: "Installs Video Applications"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages: 
+    - guvcview
+    - handbrake
+    - kdenlive
+    - frei0r-plugins
+    - obs-studio
+    - openshot
+    - pitivi
+    - shotcut
+    - simplescreenrecorder
+    - youtube-dl
+- name: "VirtualBox"
+  description: "Installs VirtualBox"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages: 
+    - virtualbox
+    - virtualbox-host-dkms
+    - virtualbox-guest-utils
